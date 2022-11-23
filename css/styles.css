@@ -43,11 +43,6 @@ nav a
 nav a:hover{
 color: rgb(231, 94, 208);}
 
-.navbar{
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    padding-left: 0rem;
-    padding-right: 0rem;}
 
 h1{ color: rgb(87, 85, 122);
     font-family: 'Amatic SC', sans-serif;
