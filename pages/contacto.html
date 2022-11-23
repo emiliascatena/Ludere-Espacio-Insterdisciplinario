@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,80 +20,123 @@
             <img src="../assets/images/LUDERE-LOGO-blanco.png" alt="">
         </div>
 
-            <div>
-            <nav>  
+        <div>
+            <nav>
+                
                 <a href="../index.html">Inicio</a>
-                <a href="./especialidades.html">Especialidades</a>                <a href="./galeria.html">Galeria</a>
+                <a href="./especialidades.html">Especialidades</a> 
+                <a href="./galeria.html">Galeria</a>
                 <a href="./talleres.html">Talleres</a>
-                <a href="#">Contacto</a> 
+                <a href="#">Contacto</a>
+                
             </nav>
 
-            </div>
-            
-            
+        </div>
+
+
     </header>
     <MAIn>
-        <section>
-            <h1>INFORMACIÓN DE CONTACTO</h1>
-            
-            <div>
-            <h2 class="Subtitulo">REALICE SU CONSULTA</P>
-            </div>
-        </section>
-
-       <section>
-         
-        <form>
-            <div>
-                <input type="text" placeholder="Nombre y Apellido*" required>
-            </div>
-            <br>
-            <div>
-                <input type="email"placeholder="correo electrónico*"required>
-            </div>
-            <br>
-            <div>
-                 <input type="tel"placeholder="teléfono">
-            </div>
-            <br>
-            <div>
-            
-            <fieldset>
-                <legend>Ingrese su consulta</legend>
-                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese su consulta"></textarea>
-            </fieldset>
-            </div>
-
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-
-        </form>
-            
-        </section>
+        <h1>INFORMACIÓN DE CONTACTO</h1>
 
         <section>
-            <h2>DATOS DE CONTACTO</h2>
+           
+                <div>
+                    <h2 class="Sub2">REALICE SU CONSULTA</h2>
+                </div>
+                <p class="textoConsulta">
+                    Si quiere realizar una consulta, complete los datos del formulario y le responderemos a la brevedad.
+                </p>
 
-            <p class="textoVerde"> Lisamdro de la Torre N° 3180</p>
-            <p class="textoVerde"> Lunes a Viernes de 8 a 17 hs</p>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.418475678727!2d-60.717646285337885!3d-31.649768914745145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9ae79ee6e39%3A0x7bd49049aa24e12e!2sLisandro%20de%20la%20Torre%203180%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1666657719962!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+            <section class="container-fluid">
+                <div class="Contacto">
+                    <form>
+            </section>
+
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Nombre y Apellido</span>
+                <input type="text" class="form-control" placeholder="Ingrese su nombre*" aria-label="Username"
+                    aria-describedby="addon-wrapping" required>
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Correo electrónico </span>
+                <input type="text" class="form-control" placeholder="Ingrese su email*" aria-label="Username"
+                    aria-describedby="addon-wrapping" required>
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">Número telefonico</span>
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping"
+                    required>
+            </div>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Seleccione el área de interes</option>
+                <option value="1">Psicologia</option>
+                <option value="2">Psicopedagogia</option>
+                <option value="3">Superviciones Clinicas</option>
+                <option value="4">Estimulación Temprana</option>
+                <option value="5">Orientación Vocacional</option>
+                <option value="6">Acompañamiento Escolar</option>
+                <option value="6">Talleres</option>
+            </select>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Escriba su consulta" id="floatingTextarea2"
+                    style="height: 100px" required></textarea>
+                <label for="floatingTextarea2">Escriba su consulta*</label>
+            </div>
+
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Envíar</button>
+            </div>
+            </form>
+
         </section>
+        </div>
+
+        <hr size="8" style="color:rgba(119, 0, 133, 0.952);">
+        <section>
+
+            <div>
+                
+                <div class="textoConsulta">
+                    <h2 class="Sub2">DATOS DE CONTACTO</h2>
+                    <p class="texto"> Domicilio: Lisandro de la Torre N° 3180</p>
+                    <p class="texto"> Horarios: Lunes a Viernes de 8 a 13 hs</p>
+                </div>
+
+                <div class="Mapa">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.418475678727!2d-60.717646285337885!3d-31.649768914745145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9ae79ee6e39%3A0x7bd49049aa24e12e!2sLisandro%20de%20la%20Torre%203180%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1666657719962!5m2!1ses!2sar"
+                        width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
     </MAIn>
 
     <footer class="piePagina">
-    
-        
-    <a href="https:////www.facebook.com/ludereespaciopedagogico" target="_blank">
-        <i class="Facebook fab fa-facebook-f"></i></a>
-    <a href="https:////www.instagram.com/ludere.stafe/" target="_blank"> 
-      <i class="instagram fab fa-instagram"></i></a>
+
+
+        <a href="https:////www.facebook.com/ludereespaciopedagogico" target="_blank">
+            <i class="Facebook fab fa-facebook-f"></i></a>
+        <a href="https:////www.instagram.com/ludere.stafe/" target="_blank">
+            <i class="instagram fab fa-instagram"></i></a>
         <h3>Todos los derechos reservados</h3>
-    
+
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/all.min.js"></script>
 </body>
+
 </html>

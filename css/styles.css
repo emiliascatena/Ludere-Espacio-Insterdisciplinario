@@ -7,6 +7,9 @@ padding: 0;
 box-sizing:border-box;
 font-size: 62,5%;}
 
+*{box-sizing: border-box;}
+
+
 header{
 display: flex;
 justify-content: space-between;
@@ -40,10 +43,16 @@ nav a
 nav a:hover{
 color: rgb(231, 94, 208);}
 
+.navbar{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;}
+
 h1{ color: rgb(87, 85, 122);
     font-family: 'Amatic SC', sans-serif;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-left:60px;
     margin-top: 40px; 
     text-align: center;}
@@ -56,6 +65,21 @@ h2{ color: rgb(161, 56, 144);
     text-align: center;
     margin-top: 40px;
    }
+
+h3{
+    font-size: medium;
+}
+
+h5{
+    color:rgb(87, 85, 122);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;}
+
+.Subtitulo{
+font-size: 2rem;
+font-weight: bold;
+text-align: start;}
 
 .textoVerde{
 color: rgb(55, 41, 88);
@@ -72,6 +96,7 @@ margin-right: 40px;
 flex-wrap: wrap;
 background-size: cover;}
 
+
 body{ background-image: url(../assets/images/fondopantalla.png);
     margin-left: 20px;
     margin-right: 20px;
@@ -83,31 +108,15 @@ body{ background-image: url(../assets/images/fondopantalla.png);
     background-size: cover;
     background-attachment:fixed;}
 
-*{box-sizing: border-box;}
-
-.Contenedor{
-display: flex;
-padding-left: 40px;
-padding-right: 40px;
-justify-content: center;
-}
 
 .principal{
 display: inline-block;
 justify-content: center;
 align-items: center;
+text-align: center;
 background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);}
 
-.Hijo{
-background-color: rgb(222, 203, 240);
-display: inline-block;
-justify-items:center;
-justify-content: space-between;}
 
-
-h3{
-    font-size: medium;
-}
 
 .Galeria{
 display: flex;
@@ -143,6 +152,63 @@ font-size: 2rem;
 justify-content: center;
 color: black;}
 
+.tarjetas{
+margin-top: 5%;}
 
+.texto{
+    color: rgb(55, 41, 88);
+    font-family: 'PT Sans Narrow', sans-serif;
+    line-height: 2;
+    content:none;
+    justify-content: center;
+    font-size:large;
+}
 
+.card{
+background-color: #b3dcf0f1;}
+
+.btn, form{
+border-color: #5fc6e686;
+background-color: rgb(190, 244, 248);
+color: #131313;}
+
+.form-floating{
+    background-color: rgb(190, 244, 248);
+border-color: #5fc6e686;
+}
+
+.input-group-text{
+background-color: rgb(190, 244, 248);
+border-color: #5fc6e686;
+}
+
+.form-control{
+background-color: rgb(190, 244, 248);
+border-color: #5fc6e686}
+
+.form-select{
+background-color: rgb(190, 244, 248);
+border-color: #5fc6e686}
+
+.Contacto{ 
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.Mapa{
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.Sub2{
+text-align: center;
+font-size: 2rem;
+font-weight: bold;}
+
+.textoConsulta{
+text-align: center;
+font-size: large;
+font-weight: bold;
+color: rgb(55, 41, 88);}
 
