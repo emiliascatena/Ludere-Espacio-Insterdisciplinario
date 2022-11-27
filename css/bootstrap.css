@@ -4213,23 +4213,23 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-  color: rgb(230, 166, 216);
+  color: #fff;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: rgb(128, 63, 202);
+  color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 9, 9, 0.55);
+  color: rgba(255, 255, 255, 0.55);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(189, 20, 20, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: rgb(206, 24, 24);
+  color: #fff;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
