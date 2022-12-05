@@ -27,7 +27,6 @@ header .container {
         header .container .nav ul li a .navbar .nav-link .navbar-toggler {
           color: #131313; }
 
-/*
 nav a {
     text-decoration: none;
     font-size: medium;
@@ -39,11 +38,21 @@ nav a {
 .navbar {
     display: flex;
     text-decoration-color: #6210ee;
+    transition: all 0.8s;
+    width: 100%;
 }
+.navbar-toggler{
+display:block;
+width:50px;
+height:50px;
+border:1px solid black;
+position:relative;
+cursor: pointer;
+box-sizing: border-box;}
 
 .nav-link {
-    color: #560cb8;
-    background-color: rgba(230, 82, 247, 0.445);
+    color: #bc18ee;
+    
 }
 */
 .container-fluid {
@@ -69,21 +78,19 @@ h2 {
 h3 {
   font-size: medium; }
 
+  .Cuadro{
+ background-color: rgba(11, 255, 255, 0.527) !important;}
+
 h5 {
   color: #57557a;
   font-size: 1rem;
   font-weight: bold;
   text-align: center; }
 
-.Subtitulo {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: start; }
-
 .textoVerde {
   color: #372958;
   font-family: 'PT Sans Narrow', sans-serif;
-  line-height: 3;
+  line-height: 2;
   font-weight: bolder;
   position: sticky;
   content: none;
@@ -111,28 +118,28 @@ body {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  }
 
-.Foto {
-  border: 1px solid #a2b3ff;
-  justify-content: center; }
+.offcanvas-body, .offcanvas-title, .offcanvas-header{
+background-color: #f1fabe;}
 
 .piePagina {
   background-color: rgba(230, 82, 247, 0.445);
   margin-top: 40px;
   padding: 30px;
   text-align: center;
-  color: black; }
+  color: rgb(114, 101, 101); }
 
 .instagram {
   font-size: 2rem;
   justify-content: center;
-  color: black; }
+  color: rgb(159, 16, 172); }
 
 .Facebook {
   font-size: 2rem;
   justify-content: center;
-  color: black; }
+  color: rgb(10, 65, 148); }
 
 .tarjetas {
   margin-top: 5%; }
@@ -146,13 +153,8 @@ body {
   font-size: large; }
 
 .card {
-  background-color: #b3dcf0f1; }
-
-.btn,
-form {
-  border-color: #5fc6e686;
-  background-color: #bef4f8;
-  color: #131313; }
+  background-color: #b3dcf0f1;
+  margin-left: 10%;}
 
 .form-floating {
   background-color: #bef4f8;
@@ -170,11 +172,6 @@ form {
   background-color: #bef4f8;
   border-color: #5fc6e686; }
 
-.Contacto {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center; }
-
 .Mapa {
   display: flex;
   justify-content: center;
@@ -186,7 +183,7 @@ form {
   font-weight: bold; }
 
 .textoConsulta {
-  text-align: center;
+  text-align:center;
   font-size: large;
   font-weight: bold;
   color: #372958; }
@@ -194,3 +191,6 @@ form {
 .info {
   font-size: larger;
   font-weight: bold; }
+
+  .titulo{
+  color: #57557a;}
