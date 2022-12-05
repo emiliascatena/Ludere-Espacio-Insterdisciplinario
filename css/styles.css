@@ -66,11 +66,6 @@ h5 {
   font-weight: bold;
   text-align: center; }
 
-.Subtitulo {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: start; }
-
 .textoVerde {
   color: #372958;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -107,18 +102,6 @@ body {
   align-items: center;
   text-align: center;
   }
-  
-
-.Galeria {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center; }
-
-.Foto {
-  border: 1px solid #a2b3ff;
-  justify-content: center; }
 
 .offcanvas-body, .offcanvas-title, .offcanvas-header{
 background-color: #f1fabe;}
@@ -128,17 +111,17 @@ background-color: #f1fabe;}
   margin-top: 40px;
   padding: 30px;
   text-align: center;
-  color: black; }
+  color: rgb(114, 101, 101); }
 
 .instagram {
   font-size: 2rem;
   justify-content: center;
-  color: black; }
+  color: rgb(159, 16, 172); }
 
 .Facebook {
   font-size: 2rem;
   justify-content: center;
-  color: black; }
+  color: rgb(10, 65, 148); }
 
 .tarjetas {
   margin-top: 5%; }
@@ -154,11 +137,6 @@ background-color: #f1fabe;}
 .card {
   background-color: #b3dcf0f1; 
   margin-left: 10%;}
-
-.btn,form {
-  border-color: #5fc6e686;
-  background-color: #bef4f8;
-  color: #131313; }
 
 .form-floating {
   background-color: #bef4f8;
@@ -187,7 +165,7 @@ background-color: #f1fabe;}
   font-weight: bold; }
 
 .textoConsulta {
-  text-align:justify;
+  text-align:center;
   font-size: large;
   font-weight: bold;
   color: #372958; }
