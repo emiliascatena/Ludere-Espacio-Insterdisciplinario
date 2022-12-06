@@ -1,0 +1,50 @@
+main {
+    .card {
+      background-color: #b3dcf0f1;
+      margin-left: 10%;
+    }
+  
+    .Cuadro {
+      background-color: rgba(11, 255, 255, 0.527) !important;
+    }
+  
+    .img-fluid {
+      object-fit: cover;
+    }
+  
+    .offcanvas-body,
+    .offcanvas-title,
+    .offcanvas-header {
+      background-color: #f1fabe;
+    }
+  
+    .tarjetas {
+      margin-top: 5%;
+    }
+  
+    .Mapa {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .form-floating {
+      background-color: $color-cuaternario;
+      border-color: $color-terciario;
+    }
+  
+    .input-group-text {
+      background-color:$color-cuaternario;
+      border-color: $color-terciario;
+    }
+  
+    .form-control {
+      background-color: $color-cuaternario;
+      border-color: $color-terciario;
+    }
+  
+    .form-select {
+      background-color: $color-cuaternario;
+      border-color: $color-terciario;
+    }
+  }

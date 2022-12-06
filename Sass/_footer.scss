@@ -1,0 +1,21 @@
+.piePagina {
+    background-color: rgba(230, 82, 247, 0.445);
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    color: rgb(114, 101, 101);
+  
+    .Facebook {
+      font-size: $fuente-normal;
+      justify-content: center;
+      color: rgb(10, 65, 148);
+    }
+  
+    .instagram {
+      font-size: $fuente-normal;
+      justify-content: center;
+      color: rgb(159, 16, 172);
+    }
+  }
+  
+  

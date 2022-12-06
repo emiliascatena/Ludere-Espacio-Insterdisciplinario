@@ -1,0 +1,79 @@
+
+
+h1 {
+    color: $color-primario;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: $fuente-typo;
+    font-size: $fuente-normal*2;
+    margin-left: 60px;
+    margin-top: 40px;
+    text-align: $text;
+  }
+  
+  h2 {
+    color: #a13890;
+    font-size: $fuente-normal*2;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: $fuente-typo;
+    text-align: $text;
+    margin-top: 40px;
+  }
+  
+  h3 {
+    font-size: medium;
+  }
+  
+  h5 {
+    color: $color-primario;
+    font-size: 1rem;
+    font-weight: $fuente-typo;
+    text-align: $text;
+  }
+  
+  .textoVerde {
+    color:$fuente-normal;
+    font-family: 'PT Sans Narrow', sans-serif;
+    line-height: 2;
+    font-weight: bolder;
+    position: sticky;
+    content: none;
+    justify-content: $text;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    background-size: cover;
+  }
+  
+  
+  .Sub2 {
+    text-align: $text;
+    font-size: $fuente-normal;
+    font-weight: $fuente-typo;
+  }
+  
+  .textoConsulta {
+    text-align: $text;
+    font-size: large;
+    font-weight: $fuente-typo;
+    color:$color-secundario;
+  }
+  
+  .info {
+    font-size: larger;
+    font-weight: $fuente-typo;
+  }
+  
+  .titulo {
+    color: $color-primario;
+  }
+  
+  .texto {
+    color:$color-secundario;
+    font-family: 'PT Sans Narrow', sans-serif;
+    line-height: 2;
+    content: none;
+    justify-content: $text;
+    font-size: large;
+  }
