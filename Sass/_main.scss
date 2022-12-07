@@ -1,7 +1,7 @@
 main {
     .card {
       background-color: #b3dcf0f1;
-      margin-left: 10%;
+      @include top-left-right (0%, 10%, 0%)
     }
   
     .Cuadro {
@@ -19,13 +19,13 @@ main {
     }
   
     .tarjetas {
-      margin-top: 5%;
+      @include top-left-right (5%, 0%, 0%);
     }
   
     .Mapa {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: $text;
+      align-items: $text;
     }
   
     .form-floating {

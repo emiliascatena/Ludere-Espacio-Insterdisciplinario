@@ -1,0 +1,10 @@
+@mixin top-left-right($top,$left,$right){
+margin-top: $top;
+margin-left: $left;
+margin-right: $right;}
+
+$titulos:(
+color: #57557a,
+fuente: bold,
+text-aling: center,
+font-family: 'Amatic Sc');

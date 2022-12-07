@@ -29,7 +29,9 @@ body {
 
 main .card {
   background-color: #b3dcf0f1;
-  margin-left: 10%; }
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 0%; }
 
 main .Cuadro {
   background-color: rgba(11, 255, 255, 0.527) !important; }
@@ -43,7 +45,9 @@ main .offcanvas-header {
   background-color: #f1fabe; }
 
 main .tarjetas {
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 0%; }
 
 main .Mapa {
   display: flex;
@@ -69,6 +73,8 @@ main .form-select {
 .piePagina {
   background-color: rgba(230, 82, 247, 0.445);
   margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
   padding: 30px;
   text-align: center;
   color: #726565; }
@@ -83,20 +89,23 @@ main .form-select {
 
 h1 {
   color: #57557a;
-  font-family: 'Amatic SC', sans-serif;
-  font-weight: bold;
   font-size: 4rem;
-  margin-left: 60px;
-  margin-top: 40px;
-  text-align: center; }
-
-h2 {
-  color: #a13890;
-  font-size: 4rem;
-  font-family: 'Amatic SC', sans-serif;
+  font-family: "Amatic Sc";
   font-weight: bold;
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+h2 {
+  color: #57557a;
+  font-size: 4rem;
+  font-family: "Amatic Sc";
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px; }
 
 h3 {
   font-size: medium; }
@@ -108,7 +117,7 @@ h5 {
   text-align: center; }
 
 .textoVerde {
-  color: 2rem;
+  color: blueviolet;
   font-family: 'PT Sans Narrow', sans-serif;
   line-height: 2;
   font-weight: bolder;

@@ -1,22 +1,22 @@
 
 
 h1 {
-    color: $color-primario;
-    font-family: 'Amatic SC', sans-serif;
-    font-weight: $fuente-typo;
-    font-size: $fuente-normal*2;
-    margin-left: 60px;
-    margin-top: 40px;
-    text-align: $text;
+  color: map-get($titulos, color);
+  font-size: $fuente-normal*2;
+  font-family: map-get($titulos, font-family);
+  font-weight: map-get($titulos, fuente);
+  text-align: map-get($titulos, text-aling);
+  @include top-left-right (40px, 0px, 0px);
+  
   }
   
   h2 {
-    color: #a13890;
+    color: map-get($titulos, color);
     font-size: $fuente-normal*2;
-    font-family: 'Amatic SC', sans-serif;
-    font-weight: $fuente-typo;
-    text-align: $text;
-    margin-top: 40px;
+    font-family: map-get($titulos, font-family);
+    font-weight: map-get($titulos, fuente);
+    text-align: map-get($titulos, text-aling);
+    @include top-left-right (40px, 0px, 0px);
   }
   
   h3 {
@@ -31,7 +31,7 @@ h1 {
   }
   
   .textoVerde {
-    color:$fuente-normal;
+    color:blueviolet;
     font-family: 'PT Sans Narrow', sans-serif;
     line-height: 2;
     font-weight: bolder;
@@ -39,9 +39,7 @@ h1 {
     content: none;
     justify-content: $text;
     font-size: x-large;
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    @include top-left-right (10px, 40px, 40px);
     flex-wrap: wrap;
     background-size: cover;
   }

@@ -1,19 +1,19 @@
 .piePagina {
     background-color: rgba(230, 82, 247, 0.445);
-    margin-top: 40px;
+    @include top-left-right (40px, 0px, 0px);
     padding: 30px;
-    text-align: center;
+    text-align: $text;
     color: rgb(114, 101, 101);
   
     .Facebook {
       font-size: $fuente-normal;
-      justify-content: center;
+      justify-content: $text;
       color: rgb(10, 65, 148);
     }
   
     .instagram {
       font-size: $fuente-normal;
-      justify-content: center;
+      justify-content: $text;
       color: rgb(159, 16, 172);
     }
   }
