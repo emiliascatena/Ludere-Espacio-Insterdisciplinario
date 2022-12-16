@@ -1,6 +1,6 @@
 
 
-h1 {
+.titulo-principal {
   color: map-get($titulos, color);
   font-size: $fuente-normal*2;
   font-family: map-get($titulos, font-family);
@@ -10,7 +10,7 @@ h1 {
   
   }
   
-  h2 {
+  .subtitulo {
     color: map-get($titulos, color);
     font-size: $fuente-normal*2;
     font-family: map-get($titulos, font-family);
@@ -19,11 +19,11 @@ h1 {
     @include top-left-right (40px, 0px, 0px);
   }
   
-  h3 {
+  .tercero {
     font-size: medium;
   }
   
-  h5 {
+  .cuarto {
     color: $color-primario;
     font-size: 1rem;
     font-weight: $fuente-typo;
@@ -31,10 +31,10 @@ h1 {
   }
   
   .textoVerde {
-    color:blueviolet;
+    color:rgb(170, 108, 228);
     font-family: 'PT Sans Narrow', sans-serif;
     line-height: 2;
-    font-weight: bolder;
+    font-weight: bold;
     position: sticky;
     content: none;
     justify-content: $text;

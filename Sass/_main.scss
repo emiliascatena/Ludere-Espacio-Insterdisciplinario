@@ -1,50 +1,66 @@
 main {
-    .card {
-      background-color: #b3dcf0f1;
-      @include top-left-right (0%, 10%, 0%)
-    }
-  
-    .Cuadro {
-      background-color: rgba(11, 255, 255, 0.527) !important;
-    }
-  
-    .img-fluid {
-      object-fit: cover;
-    }
-  
-    .offcanvas-body,
-    .offcanvas-title,
-    .offcanvas-header {
-      background-color: #f1fabe;
-    }
-  
-    .tarjetas {
-      @include top-left-right (5%, 0%, 0%);
-    }
-  
-    .Mapa {
-      display: flex;
-      justify-content: $text;
-      align-items: $text;
-    }
-  
-    .form-floating {
-      background-color: $color-cuaternario;
-      border-color: $color-terciario;
-    }
-  
-    .input-group-text {
-      background-color:$color-cuaternario;
-      border-color: $color-terciario;
-    }
-  
-    .form-control {
-      background-color: $color-cuaternario;
-      border-color: $color-terciario;
-    }
-  
-    .form-select {
-      background-color: $color-cuaternario;
-      border-color: $color-terciario;
-    }
+  .card {
+    background-color: #b3dcf0f1;
+    @include top-left-right (0%, 10%, 0%)
   }
+
+
+  .tarjeta {
+    transition: 0.5s;
+    object-fit: cover;
+  }
+
+  .tarjeta:hover {
+    transform: scale(1.2);
+  }
+
+  .Cuadro {
+    background-color: #b3dcf0f1 !important;
+  }
+
+  .img-fluid {
+    object-fit: cover;
+  }
+
+  .offcanvas-body,
+  .offcanvas-title,
+  .offcanvas-header {
+    background-color: #f1fabe;
+  }
+
+  .tarjetas {
+    @include top-left-right (5%, 0%, 0%);
+  }
+
+  .Mapa {
+    display: flex;
+    justify-content: $text;
+    align-items: $text;
+  }
+
+  .form-floating {
+    background-color: $color-cuaternario;
+    border-color: $color-terciario;
+  }
+
+  .input-group-text {
+    background-color: $color-cuaternario;
+    border-color: $color-terciario;
+  }
+
+  .form-control {
+    background-color: $color-cuaternario;
+    border-color: $color-terciario;
+  }
+
+  .form-select {
+    background-color: $color-cuaternario;
+    border-color: $color-terciario;
+  }
+  
+  .enviar{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+}
